@@ -8,13 +8,22 @@ function Release() {
     return (
         <div className='main'>
             <h3>Releases:</h3>
+            {/* <div className='review'>
+                <p>
+                    "I love when a band I'm only marginally familiar with BLOWS MY DOORS OFF, and this Fjord Pony record fits the bill." -Top Connecticut Albums 2023, Chip McCabe
+                </p>
+            </div> */}
             <div className='carousel'>
                 <Carousel>
                     <div>
                         <img src={amythyst} />
+                        <p className='legend'>"I love when a band I'm only marginally familiar with BLOWS MY DOORS OFF, and this Fjord Pony record fits the bill." -Top Connecticut Albums 2023, Chip McCabe</p>
                     </div>
                     <div>
                         <img src={brights} />
+                        <p className='legend'>''Brights On' is an amazing album.
+                            Combining the best of modern alt and indie rock while channeling classic rock, Fjord Pony feels like a crossover between Arctic Monkeys and Radiohead."
+                            - Rock Era Magazine</p>
                     </div>
                 </Carousel>
             </div>

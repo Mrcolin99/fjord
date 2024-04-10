@@ -1,7 +1,12 @@
 .main {
     border: solid purple 3px;
+    flex: content;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.review {
+    width: 33%;
 }
 
 .carousel {
