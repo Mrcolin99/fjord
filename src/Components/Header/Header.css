@@ -1,5 +1,9 @@
 .main-div {
+    border: pink solid 3px;
+}
 
+.sub {
+    border: solid 3px orange;
 }
 
 .release {
@@ -9,5 +13,25 @@
 
 .release:visited {
     color: green;
+    text-decoration: none;
+}
+
+.release:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    color: green;
+    text-decoration: none;
+}
+
+.home:visited {
+    color: green;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: white;
     text-decoration: none;
 }
