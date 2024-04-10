@@ -5,10 +5,6 @@
     flex-direction: row;
 }
 
-.review {
-    width: 33%;
-}
-
 .carousel {
     margin-left: 33%;
     border: solid white 3px;

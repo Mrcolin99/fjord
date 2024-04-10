@@ -8,11 +8,6 @@ function Release() {
     return (
         <div className='main'>
             <h3>Releases:</h3>
-            {/* <div className='review'>
-                <p>
-                    "I love when a band I'm only marginally familiar with BLOWS MY DOORS OFF, and this Fjord Pony record fits the bill." -Top Connecticut Albums 2023, Chip McCabe
-                </p>
-            </div> */}
             <div className='carousel'>
                 <Carousel>
                     <div>
