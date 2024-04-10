@@ -8,9 +8,15 @@
     font-size: 30px;
 }
 
+.icon {
+    margin-top: 5px;
+    margin-left: 7%;
+    width: 4%;
+}
+
 .bandcamp {
     margin: 3px;
-    font-size: 30px;
+    width: 20%;
 }
 
 .apple {
