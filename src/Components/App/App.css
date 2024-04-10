@@ -1,0 +1,16 @@
+.body { 
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: auto;
+}
+
+.description {
+  text-align: center;
+  font-size: 100%;
+}
+
+.band-pic {
+  margin-left: 4%;
+  justify-content: center;
+  width: 90%;
+}
