@@ -7,7 +7,6 @@ import './Release.css'
 function Release() {
     return (
         <div className='main'>
-            <h3>Releases:</h3>
             <div className='carousel'>
                 <Carousel>
                     <div>

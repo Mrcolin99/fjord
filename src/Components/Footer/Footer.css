@@ -1,6 +1,6 @@
 .main-foot {
     border: yellow solid 3px;
-    height: 90px;
+    height: 100px;
 }
 
 .insta {
@@ -10,41 +10,12 @@
 
 .icon {
     margin-top: 5px;
-    margin-left: 7%;
+    margin-left: 7.5%;
     width: 4%;
 }
 
-.bandcamp {
-    margin: 3px;
-    width: 20%;
+.icon:hover {
+    width: 5.5%;
+    
 }
 
-.apple {
-    margin: 3px;
-    font-size: 30px;
-}
-
-.spotify {
-    margin: 3px;
-    font-size: 30px;
-}
-
-.napster {
-    margin: 3px;
-    font-size: 30px;
-}
-
-.youtube {
-    margin: 3px;
-    font-size: 30px;
-}
-
-.amazon {
-    margin: 3px;
-    font-size: 30px;
-}
-
-.facebook {
-    margin: 3px;
-    font-size: 30px;
-}

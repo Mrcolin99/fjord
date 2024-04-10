@@ -7,12 +7,12 @@
 }
 
 .release {
-    color: green;
+    color: darkblue;
     text-decoration: none;
 }
 
 .release:visited {
-    color: green;
+    color: darkblue;
     text-decoration: none;
 }
 
@@ -22,12 +22,12 @@
 }
 
 .home {
-    color: green;
+    color: darkblue;
     text-decoration: none;
 }
 
 .home:visited {
-    color: green;
+    color: darkblue;
     text-decoration: none;
 }
 
