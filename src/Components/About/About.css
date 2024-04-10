@@ -1,0 +1,23 @@
+.body { 
+    border: solid line green;
+  }
+  
+  .description {
+    border: cadetblue solid 3px;
+    text-align: center;
+    font-size: 100%;
+  }
+  
+  .band-pic {
+    margin-left: 33%;
+    border: solid 3px olive;
+    justify-content: center;
+    width: 33%;
+  }
+  
+  .img-contain {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border: firebrick solid 3px;
+  }
