@@ -1,8 +1,17 @@
+import { Link }from 'react-router-dom'
+import Release from '../Release/Release'
+import  About from '../About/About'
+
 function Header() {
     return (
-        <div>
+        <div className='main-div'>
+            <Link to='/' element={<About />}>
             <h1>Fjord Pony</h1>
-            <h3>Contact Us</h3>
+            </Link>
+            <Link to='/releases' element={<Release />} className='release'> 
+            <h3 >Our Releases</h3>
+            </Link>
+
         </div>
     )
 }

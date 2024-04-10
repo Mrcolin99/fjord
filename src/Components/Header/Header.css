@@ -1,0 +1,13 @@
+.main-div {
+
+}
+
+.release {
+    color: green;
+    text-decoration: none;
+}
+
+.release:visited {
+    color: green;
+    text-decoration: none;
+}
