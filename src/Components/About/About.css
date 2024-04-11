@@ -10,6 +10,7 @@
   border: cadetblue solid 3px;
   text-align: center;
   font-size: 100%;
+  margin-right: 3px;
 }
 
 .band-pic {
@@ -45,6 +46,7 @@
 
   .description {
     margin: 0px;
+    padding: 3px;
   }
 }
 

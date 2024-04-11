@@ -1,19 +1,36 @@
 .main {
-    border: solid purple 3px;
     display: flex;
-    justify-content: center;
-}
-
-.carousel {
-    border: solid white 3px;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-    .carousel {
-        margin: 0;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .carousel {
+    width: 100%; /* Ensure carousel takes full width */
+  }
+  
+  .review1,
+  .review2 {
+    text-align: center; /* Center the text */
+    font-size: 14px; /* Set the font size */
+    margin: 20px 0; /* Add margin for spacing */
+    width: 90%; /* Set width to 90% to prevent overflow */
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .main {
+      flex-direction: row; /* Stack items horizontally for larger screens */
+      justify-content: center; /* Center items horizontally */
+      align-items: flex-start; /* Align items to the top */
     }
-}
+  
+    .carousel {
+      width: 50%; /* Set width to 50% for larger screens */
+      margin: 0 10px; /* Add margin for spacing */
+    }
+  
+    .review1,
+    .review2 {
+      width: auto; /* Set width to auto for larger screens */
+    }
+  }
+  
