@@ -8,7 +8,7 @@ function Release() {
     return (
         <div className='main'>
             <div className='carousel'>
-                <Carousel>
+                <Carousel interval={3000} infiniteLoop={true} >
                     <div>
                         <img src={amythyst} />
                         <p className='legend'>"I love when a band I'm only marginally familiar with BLOWS MY DOORS OFF, and this Fjord Pony record fits the bill." -Top Connecticut Albums 2023, Chip McCabe</p>

@@ -1,23 +1,25 @@
-.body { 
-    border: solid line green;
-  }
-  
-  .description {
-    border: cadetblue solid 3px;
-    text-align: center;
-    font-size: 100%;
-  }
-  
-  .band-pic {
-    margin-left: 33%;
-    border: solid 3px olive;
-    justify-content: center;
-    width: 33%;
-  }
-  
-  .img-contain {
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    border: firebrick solid 3px;
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  border: black solid 3px;
+}
+
+.description {
+  border: cadetblue solid 3px;
+  text-align: center;
+  font-size: 100%;
+}
+
+.band-pic {
+  border: solid 3px olive;
+  justify-content: center;
+  width: 64vw;
+}
+
+.side-bar {
+  margin-left: 1vw;
+  border: solid purple 3px;
+  width: 30vw;
+}
