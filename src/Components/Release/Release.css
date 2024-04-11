@@ -1,36 +1,35 @@
 .main {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column;
+    align-items: center; 
   }
   
   .carousel {
-    width: 100%; /* Ensure carousel takes full width */
+    width: 100%; 
   }
   
   .review1,
   .review2 {
-    text-align: center; /* Center the text */
-    font-size: 14px; /* Set the font size */
-    margin: 20px 0; /* Add margin for spacing */
-    width: 90%; /* Set width to 90% to prevent overflow */
+    text-align: center; 
+    font-size: 14px; 
+    margin: 20px 0; 
+    width: 90%; 
   }
-  
   @media only screen and (min-width: 601px) {
     .main {
-      flex-direction: row; /* Stack items horizontally for larger screens */
-      justify-content: center; /* Center items horizontally */
-      align-items: flex-start; /* Align items to the top */
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
     }
   
     .carousel {
-      width: 50%; /* Set width to 50% for larger screens */
-      margin: 0 10px; /* Add margin for spacing */
+      width: 50%;
+      margin: 0 10px;
     }
   
     .review1,
     .review2 {
-      width: auto; /* Set width to auto for larger screens */
+      width: auto;
     }
   }
   
