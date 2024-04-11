@@ -13,6 +13,7 @@ function Header() {
                 <Link to='/releases' element={<Release />} className='release'>
                     <h3>Our Releases</h3>
                 </Link>
+                <h3>Shows</h3>
             </div>
 
         </div>

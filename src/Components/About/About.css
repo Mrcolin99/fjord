@@ -30,7 +30,7 @@
   }
 
   .side-bar {
-    margin-left: 0%;
+    margin-left: 0vw;
     width: 100%;
   }
 
@@ -41,5 +41,15 @@
   .side-bar {
     margin-left: 0;
     border: solid purple 3px;
+  }
+
+  .description {
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .band-pic {
+    max-width: 50vw;
   }
 }
