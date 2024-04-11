@@ -1,36 +1,30 @@
 .main-div {
     border: pink solid 3px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
 }
 
 .sub {
     border: solid 3px orange;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    flex: 1; 
 }
-
-.release {
-    color: darkblue;
-    text-decoration: none;
-}
-
-.release:visited {
-    color: darkblue;
-    text-decoration: none;
-}
-
-.release:hover {
-    color: white;
-    text-decoration: none;
-}
-
+.release,
 .home {
     color: darkblue;
     text-decoration: none;
 }
 
+.release:visited,
 .home:visited {
     color: darkblue;
     text-decoration: none;
 }
 
+.release:hover,
 .home:hover {
     color: white;
     text-decoration: none;

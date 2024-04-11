@@ -15,21 +15,21 @@
     margin: 20px 0; 
     width: 90%; 
   }
+  
   @media only screen and (min-width: 601px) {
     .main {
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
+      flex-direction: column; /* Change back to column direction for desktop view */
+      align-items: center;
     }
   
     .carousel {
-      width: 50%;
-      margin: 0 10px;
+      width: 50%; /* Set the carousel width to 50% for desktop view */
+      margin: 0 auto; /* Center the carousel horizontally */
     }
   
     .review1,
     .review2 {
-      width: auto;
+      width: 90%; /* Set the width to 90% */
     }
   }
   
