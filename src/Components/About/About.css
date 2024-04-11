@@ -3,43 +3,45 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
-  border: black solid 3px;
+  /* border: black solid 3px; */
 }
 
 .description {
-  border: cadetblue solid 3px;
+  /* border: cadetblue solid 3px; */
   text-align: center;
   font-size: 100%;
   margin-right: 3px;
+  font-weight: bold;
 }
 
 .band-pic {
-  border: solid 3px olive;
+  /* border: solid 3px olive; */
   justify-content: center;
   width: 64vw;
 }
 
 .side-bar {
   margin-left: 1vw;
-  border: solid purple 3px;
+  /* border: solid purple 3px; */
   width: 30vw;
 }
 
 .carousel-container {
   width: 100%;
-  margin-top: 20px; /* Adjust as needed */
-  position: relative; /* Add relative positioning */
+  margin-top: 20px;
+  position: relative; 
 }
 
 .quote {
   text-align: center;
-  font-size: 18px; /* Adjust font size as needed */
-  margin: 10px; /* Adjust margin as needed */
-  z-index: 1; /* Set a higher z-index to bring quotes above controls */
+  font-size: 18px; 
+  margin: 10px; 
+  z-index: 1; 
+  font-style: italic;
 }
 
 .carousel .control-dots {
-  display: none; /* Hide carousel controls */
+  display: none; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,7 +64,7 @@
   }
 
   .carousel-container {
-      margin-top: 10px; /* Adjust as needed */
+      margin-top: 10px; 
   }
 }
 

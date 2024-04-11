@@ -14,7 +14,7 @@ function About() {
             <img className='band-pic' src={bandPic} alt="Fjord Pony Band" />
 
             <div className="carousel-container">
-                <Carousel interval={3000} infiniteLoop autoPlay>
+                <Carousel showThumbs={false} interval={3000} infiniteLoop autoPlay>
                     <div>
                         <p className='quote'> "Every so often, you kick over the right rock and discover a truly great album.
                 'Brights On' is one of these hidden gems.
