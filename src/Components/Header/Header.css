@@ -1,17 +1,18 @@
 .main-div {
     border: pink solid 3px;
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sub {
     border: solid 3px orange;
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
-    flex: 1; 
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
 }
+
 .release,
 .home {
     color: darkblue;
