@@ -23,3 +23,18 @@
   border: solid purple 3px;
   width: 30vw;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .side-bar {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .band-pic {
+    width: 100%;
+  }
+}
